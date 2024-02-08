@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  max-width: 1280px;
+  height: 97vh;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 35px;
+  padding: 30px 10px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.genPass {
+  display: flex;
+  width: 80%; /* You can adjust the width as needed */
+  margin: 0 auto; /* Centers the container */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 45px;
+}
+
+#pass{
+  width: 80%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 25px;
+  background-color: white;
+  color: black;
+}
+
+button {
+  width: 20%;
+  padding: 10px;
+  border-left: none;
+  background-color: rgba(0,0, 255, 0.9);
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.create input{
+  margin: 0 5px 0 30px;
+}
+
+label{
+  font-size: 20px;
+}
+
+.create div{
+  display: inline-block;
+}
